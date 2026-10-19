@@ -2,6 +2,10 @@
 
 A frosted-glass system monitor widget for **KDE Plasma 6**. It shows CPU and RAM with live area charts, CPU temperature and frequency, and disk usage, on a card that bends and blurs whatever is behind it, in the style of macOS and futuristic HUDs.
 
+<p align="center">
+  <img src="docs/screenshots/system-monitor.png" width="640" alt="HUD System Monitor on a dark wallpaper: CPU and RAM charts, CPU temperature, frequency and disk usage on a frosted-glass card">
+</p>
+
 ## Features
 
 - **CPU and RAM** with live charts, so you see the trend and not only the number.
