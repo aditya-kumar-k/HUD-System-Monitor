@@ -193,6 +193,15 @@ Item {
         }
     }
 
+    // Nothing tells us when the wallpaper is changed, so look at it again every few seconds. Without this the
+    // glass keeps showing the old wallpaper until the widget is moved or Plasma restarts.
+    Timer {
+        interval: 4000
+        repeat: true
+        running: !glass.solidMode && glass.active && !glass.realtimeRefraction && glass.visible
+        onTriggered: wallpaperTex.scheduleUpdate()
+    }
+
     // --- Frosted-glass blur pipeline (Dual Kawase) ---
     //
     // crop → downsample 1..N → upsample N..1
