@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="title" type="String">
+            <label>Card title</label>
+            <default>System Monitor</default>
+        </entry>
+        <entry name="updateInterval" type="Int">
+            <label>Seconds between samples</label>
+            <default>1</default>
+        </entry>
+        <entry name="historyPoints" type="Int">
+            <label>Samples kept for the charts</label>
+            <default>40</default>
+        </entry>
+        <entry name="diskId" type="String">
+            <label>Disk sensor, e.g. disk/all or disk/&lt;uuid&gt;</label>
+            <default>disk/all</default>
+        </entry>
+        <entry name="showHeader" type="Bool">
+            <label>Show the icon, title and menu row at the top</label>
+            <default>true</default>
+        </entry>
+        <entry name="tempWarning" type="Int">
+            <label>Temperature (C) above which the reading turns red</label>
+            <default>85</default>
+        </entry>
+    </group>
+</kcfg>

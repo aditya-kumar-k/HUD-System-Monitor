@@ -1,0 +1,14 @@
+{
+  "KPlugin": {
+    "Id": "com.aadi.hudsysmon",
+    "Name": "HUD System Monitor",
+    "Description": "Frosted-glass system monitor: CPU and RAM with live charts, CPU temperature, frequency and disk usage.",
+    "Version": "1.0.0",
+    "Category": "System Information",
+    "Icon": "utilities-system-monitor",
+    "License": "GPLv3",
+    "Authors": [{ "Name": "Aadi" }]
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "KPackageStructure": "Plasma/Applet"
+}
